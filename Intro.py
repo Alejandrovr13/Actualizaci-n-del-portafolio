@@ -29,13 +29,13 @@ with col1:
     st.subheader("Gradientes")
     image = Image.open("OIG5.jpg")
     st.image(image, width=200)
-    url = "https://clase24-08-xcofsjgyx2jhyt6onheq36.streamlit.app/"
+    url = "https://clase19-08-89dkkyt4nu4vtzjfbdtnjv.streamlit.app/"
     st.write(f"[Enlace]({url})")
 
     st.subheader("Lógica, Big-O y Vectorización")
     image = Image.open("OIG8.jpg")
     st.image(image, width=200)
-    url = "https://clase26-08-nlmunfuth36gg8tqppnf8x.streamlit.app/"
+    url = "https://clase24-08-xcofsjgyx2jhyt6onheq36.streamlit.app/"
     st.write(f"[Enlace]({url})")
 
 
