@@ -55,23 +55,21 @@ with col2:
     st.write(f" [Enlace]({url})")
     
 with col3:
-    st.subheader("Generación en Contexto")
+    st.subheader(" Regresión Lineal")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).")
     url = "https://chatpdf-cc.streamlit.app/"
-    st.write(f"RAG: [Enlace]({url})")
+    st.write(f" [Enlace]({url})")
 
-    st.subheader("Análisis de Imagen")
-    image = Image.open("OIG4.jpg")
-    st.image(image, width=200)
-    st.write("En el siguiente enlace veremos la capacidad de análisis en imágenes.")
-    url = "https://vision2-gpt4o.streamlit.app/"
-    st.write(f"Vision: [Enlace]({url})")
+   st.subheader(" Regresión Lineal")
+    image = Image.open("Chat_pdf.png")
+    st.image(image, width=190)
+    url = "https://chatpdf-cc.streamlit.app/"
+    st.write(f" [Enlace]({url})")
 
-    st.subheader("Sistema Ciberfísico")
-    image = Image.open("OIG6.jpg")
-    st.image(image, width=200)
-    st.write("En el siguiente enlace veremos la capacidad de interacción con el mundo físico.")
-    url = "https://vision2-gpt4o.streamlit.app/"
-    st.write(f"Vision: [Enlace]({url})")
+  st.subheader(" Regresión Lineal")
+    image = Image.open("Chat_pdf.png")
+    st.image(image, width=190)
+    url = "https://chatpdf-cc.streamlit.app/"
+    st.write(f" [Enlace]({url})")
+
