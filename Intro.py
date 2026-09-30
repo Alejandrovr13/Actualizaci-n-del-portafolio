@@ -23,7 +23,7 @@ with col1:
     st.subheader("Vectores y Matrices")
     image = Image.open("txt_to_audio2.png")
     st.image(image, width=190)
-    url = "https://clase12-08-xcofsjgyx2jhyt6onheq36.streamlit.app/"
+    url = "https://clase12-08-fixhnxkn7waimszlkdn93c.streamlit.app/"
     st.write(f"[Enlace]({url})")
 
     st.subheader("Gradientes")
