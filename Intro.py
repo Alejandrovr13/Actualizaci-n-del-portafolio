@@ -26,16 +26,14 @@ with col1:
     st.subheader("Preparacion de Datos")
     image = Image.open("OIG5.jpg")
     st.image(image, width=200)
-    st.write("En el siguiente enlace veremos como puedes usar tu modelo entrenado.")
     url = "https://clase19-08-89dkkyt4nu4vtzjfbdtnjv.streamlit.app/"
-    st.write(f"YOLO: [Enlace]({url})")
+    st.write(f" [Enlace]({url})")
 
     st.subheader("Gradiantes")
     image = Image.open("OIG5.jpg")
     st.image(image, width=200)
-    st.write("En el siguiente enlace veremos como puedes usar tu modelo entrenado.")
     url = "https://clase24-08-xcofsjgyx2jhyt6onheq36.streamlit.app/"
-    st.write(f"YOLO: [Enlace]({url})")
+    st.write(f" [Enlace]({url})")
 
 with col2:
     st.subheader("Conversión de voz a texto")
