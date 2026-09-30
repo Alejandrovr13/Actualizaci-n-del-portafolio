@@ -61,13 +61,13 @@ with col3:
     url = "https://chatpdf-cc.streamlit.app/"
     st.write(f" [Enlace]({url})")
 
-   st.subheader(" Regresión Lineal")
+   st.subheader(" Regresión ")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
     url = "https://chatpdf-cc.streamlit.app/"
     st.write(f" [Enlace]({url})")
 
-  st.subheader(" Regresión Lineal")
+  st.subheader(" Lineal")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
     url = "https://chatpdf-cc.streamlit.app/"
