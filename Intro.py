@@ -45,7 +45,7 @@ with col2:
     st.subheader("Preparación de datos")
     image = Image.open("data_analisis.png")
     st.image(image, width=190)
-    url = "https://clase31-08-8wly2hgh8wuc3a8s7awyry.streamlit.app/"
+    url = "https://clase26-08-nlmunfuth36gg8tqppnf8x.streamlit.app/"
     st.write(f"[Enlace]({url})")
 
     st.subheader("Aplicación de Preparación de datos")
