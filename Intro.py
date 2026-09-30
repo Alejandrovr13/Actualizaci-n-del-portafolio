@@ -67,7 +67,7 @@ with col3:
     st.subheader("Series de Tiempo")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    url = "https://docs.google.com/document/d/15DmnfY4ChVuu146mJTsMTaSs9Bx0u1mmFGhWNLDQYAI/edit?usp=sharing"
+    url = "https://clase07-09-gdd859yexy6yjv3xknmthh.streamlit.app/"
     st.write(f"[Enlace]({url})")
 
     st.subheader("Predicción y modelado de la calidad de aire")
