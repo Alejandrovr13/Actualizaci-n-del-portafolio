@@ -52,26 +52,26 @@ with col2:
     st.subheader("Regresión Lineal.")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    url = "https://chatpdf-cc.streamlit.app/"
+    url = "https://clase9-09-ubf6z3t7x5bxkdlyuvmbxu.streamlit.app/"
     st.write(f" [Enlace]({url})")
     
 with col3:
     st.subheader("Series de Tiempo.")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    url = "https://chatpdf-cc.streamlit.app/"
+    url = "https://docs.google.com/document/d/15DmnfY4ChVuu146mJTsMTaSs9Bx0u1mmFGhWNLDQYAI/edit?usp=sharing"
     st.write(f" [Enlace]({url})")
     
   st.subheader("Predicción y modelado de la calidad de aire.") 
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)}
-    url = "https://chatpdf-cc.streamlit.app/"
+    url = "https://docs.google.com/document/d/1_6E3emznLswPBlEdA38srDH1FqpNYLxLup868wj-r2U/edit?usp=sharing"
     st.write(f" [Enlace]({url})")
 
     st.subheader("Sistema de IoT .") 
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)}
-    url = "https://chatpdf-cc.streamlit.app/"
+    url = "https://bvnphvh7ubadjcmaamazjz.streamlit.app/#pregunta"
     st.write(f" [Enlace]({url})")
 
 with col4:
