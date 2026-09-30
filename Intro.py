@@ -42,16 +42,16 @@ with col2:
     url = "https://clase26-08-nlmunfuth36gg8tqppnf8x.streamlit.app/"
     st.write(f" [Enlace]({url})")
 
-    st.subheader("Análisis de Datos")
+    st.subheader("Preparación de datos")
     image = Image.open("data_analisis.png")
     st.image(image, width=190)
-    url = "https://dataagente.streamlit.app/"
+    url = "https://clase31-08-8wly2hgh8wuc3a8s7awyry.streamlit.app/"
     st.write(f" [Enlace]({url})")
 
-    st.subheader("Transcriptor Audio y Video")
+    st.subheader("Preparación de datos")
     image = Image.open("OIG3.jpg")
     st.image(image, width=200)
-    url = "https://transcript-whisper.streamlit.app/"
+    url = "https://clase02-09-byeepnhmiwzhj92y72a4rz.streamlit.app/"
     st.write(f" [Enlace]({url})")
     
 with col3:
