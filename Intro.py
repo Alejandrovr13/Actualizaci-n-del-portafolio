@@ -5,7 +5,7 @@ st.title("Portafolio De Alejandro Vizcaino Restrepo.")
 with st.sidebar:
   st.subheader("Estudiante: Alejandro Vizcaino Restrepo.")
   parrafo = (
-    "Las diferentes clases vistas en Programacion Avanzada"
+    "Aqui podremos ver las diferentes clases vistas en la materia de Programacion Avanzada"
   )
   st.write(parrafo)
 
@@ -16,11 +16,11 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
+ st.subheader("Vectores y Matrices")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
  st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
+ url = "https://clase12-08-fixhnxkn7waimszlkdn93c.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
