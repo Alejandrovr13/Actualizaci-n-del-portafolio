@@ -14,7 +14,7 @@ url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.subheader("Vectores y Matrices")
@@ -74,27 +74,3 @@ with col3:
     url = "https://bvnphvh7ubadjcmaamazjz.streamlit.app/#pregunta"
     st.write(f" [Enlace]({url})")
 
-with col4:
-   st.subheader("De la regresión lineal a la logísitica.")
-    image = Image.open("Chat_pdf.png")
-    st.image(image, width=190)
-    url = "https://chatpdf-cc.streamlit.app/"
-    st.write(f" [Enlace]({url})")
-   
-   st.subheader("Clasificación Knn")
-    image = Image.open("Chat_pdf.png")
-    st.image(image, width=190)
-    url = "https://chatpdf-cc.streamlit.app/"
-    st.write(f" [Enlace]({url})")
-   
-   st.subheader("Aplicación Knn.")
-    image = Image.open("Chat_pdf.png")
-    st.image(image, width=190)
-    url = "https://chatpdf-cc.streamlit.app/"
-    st.write(f" [Enlace]({url})")
-  
-   st.subheader("Visualización de Datos, Story telling y PCA para datos energéticos")
-    image = Image.open("Chat_pdf.png")
-    st.image(image, width=190)
-    url = "https://chatpdf-cc.streamlit.app/"
-    st.write(f" [Enlace]({url})")
