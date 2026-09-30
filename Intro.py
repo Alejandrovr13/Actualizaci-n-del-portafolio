@@ -22,7 +22,7 @@ with col1:
  url = "https://clase12-08-fixhnxkn7waimszlkdn93c.streamlit.app/"
  st.write(f" [Enlace]({url})")
 
-  st.subheader("Vectores y Matrices")
+  st.subheader("Entrenando Modelo")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
  url = "https://clase12-08-fixhnxkn7waimszlkdn93c.streamlit.app/"
