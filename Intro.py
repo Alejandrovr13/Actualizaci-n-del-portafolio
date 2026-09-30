@@ -64,12 +64,10 @@ with col3:
    st.subheader("Series de Tiempo.")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    url = "https://chatpdf-cc.streamlit.app/"
     st.write(f" [Enlace]({url})")
 
     st.subheader("Sistema de IoT Captura de datos y procesamiento.") 
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    url = "https://chatpdf-cc.streamlit.app/"
     st.write(f" [Enlace]({url})")
 
