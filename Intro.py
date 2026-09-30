@@ -51,7 +51,7 @@ with col2:
     st.subheader("Aplicación de Preparación de datos")
     image = Image.open("OIG3.jpg")
     st.image(image, width=200)
-    url = "https://clase02-09-byeepnhmiwzhj92y72a4rz.streamlit.app/"
+    url = "https://clase31-08-8wly2hgh8wuc3a8s7awyry.streamlit.app/"
     st.write(f"[Enlace]({url})")
 
     st.subheader("Regresión Lineal")
