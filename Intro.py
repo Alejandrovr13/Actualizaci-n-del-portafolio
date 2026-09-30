@@ -36,27 +36,24 @@ with col1:
     st.write(f" [Enlace]({url})")
 
 with col2:
-    st.subheader("Conversión de voz a texto")
+    st.subheader("Lógica, Big-O y Vectorización")
     image = Image.open("OIG8.jpg")
     st.image(image, width=200)
-    st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.")
-    url = "https://traductorw.streamlit.app/"
-    st.write(f"Voz a texto: [Enlace]({url})")
+    url = "https://clase26-08-nlmunfuth36gg8tqppnf8x.streamlit.app/"
+    st.write(f" [Enlace]({url})")
 
     st.subheader("Análisis de Datos")
     image = Image.open("data_analisis.png")
     st.image(image, width=190)
-    st.write("En el siguiente enlace veremos como se pueden analizar datos usando agentes.")
     url = "https://dataagente.streamlit.app/"
-    st.write(f"Datos: [Enlace]({url})")
+    st.write(f" [Enlace]({url})")
 
     st.subheader("Transcriptor Audio y Video")
     image = Image.open("OIG3.jpg")
     st.image(image, width=200)
-    st.write("En el siguiente enlace veremos como realizamos transcripciones de audio/video.")
     url = "https://transcript-whisper.streamlit.app/"
-    st.write(f"Transcriptor: [Enlace]({url})")
-
+    st.write(f" [Enlace]({url})")
+    
 with col3:
     st.subheader("Generación en Contexto")
     image = Image.open("Chat_pdf.png")
