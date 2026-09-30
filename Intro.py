@@ -5,9 +5,7 @@ st.title("Portafolio De Alejandro Vizcaino Restrepo.")
 with st.sidebar:
   st.subheader("Estudiante: Alejandro Vizcaino Restrepo.")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "Las diferentes clases vistas en Programacion Avanzada"
   )
   st.write(parrafo)
 
