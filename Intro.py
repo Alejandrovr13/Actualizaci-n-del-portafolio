@@ -20,7 +20,7 @@ with col1:
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
  url = "https://clase12-08-fixhnxkn7waimszlkdn93c.streamlit.app/"
- st.write(f": [Enlace]({url})")
+ st.write(f" [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
  image = Image.open('txt_to_audio.png')
