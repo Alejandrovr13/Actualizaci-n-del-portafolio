@@ -106,6 +106,6 @@ with col4:
     st.subheader("Visualización de Datos, Story telling y PCA para datos energéticos")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    url = "https://bvnphvh7ubadjcmaamazjz.streamlit.app/#pregunta"
+    url = "https://docs.google.com/document/d/1awXqeewpDUOygzAwXntx6ViP2jfoR5MUd4mb_6ezeiI/edit?usp=sharing"
     st.write(f"[Enlace]({url})")
 
