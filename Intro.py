@@ -22,11 +22,12 @@ with col1:
  url = "https://clase12-08-fixhnxkn7waimszlkdn93c.streamlit.app/"
  st.write(f" [Enlace]({url})")
 
-  st.subheader("Entrenando Modelo")
- image = Image.open('txt_to_audio2.png')
- st.image(image, width=190)
- url = "https://clase12-08-fixhnxkn7waimszlkdn93c.streamlit.app/"
- st.write(f" [Enlace]({url})")
+  st.subheader("Entrenando Modelos")
+    image = Image.open('OIG5.jpg')
+    st.image(image, width=200)
+    st.write("En el siguiente enlace veremos como puedes usar tu modelo entrenado.")
+    url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+    st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
