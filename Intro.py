@@ -15,7 +15,7 @@ url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 # ---------------- COLUMNA 1 ----------------
 
@@ -57,7 +57,7 @@ with col2:
     st.subheader("Regresión Lineal")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    url = "https://clase9-09-ubf6z3t7x5bxkdlyuvmbxu.streamlit.app/"
+    url = "https://clase02-09-byeepnhmiwzhj92y72a4rz.streamlit.app/"
     st.write(f"[Enlace]({url})")
 
 
@@ -81,3 +81,31 @@ with col3:
     st.image(image, width=190)
     url = "https://bvnphvh7ubadjcmaamazjz.streamlit.app/#pregunta"
     st.write(f"[Enlace]({url})")
+
+# ---------------- COLUMNA 4 ----------------
+
+with col4:
+    st.subheader("Regresion lineal a la logistica")
+    image = Image.open("Chat_pdf.png")
+    st.image(image, width=190)
+    url = "https://clase1609-zh7pfgcp9dyhcwhd2tuvdm.streamlit.app/"
+    st.write(f"[Enlace]({url})")
+
+    st.subheader("Clasificaccion Knn")
+    image = Image.open("Chat_pdf.png")
+    st.image(image, width=190)
+    url = "https://docs.google.com/document/d/1_6E3emznLswPBlEdA38srDH1FqpNYLxLup868wj-r2U/edit?usp=sharing"
+    st.write(f"[Enlace]({url})")
+
+    st.subheader("Aplicacion Knn")
+    image = Image.open("Chat_pdf.png")
+    st.image(image, width=190)
+    url = "https://bvnphvh7ubadjcmaamazjz.streamlit.app/"
+    st.write(f"[Enlace]({url})")
+  
+    st.subheader("Visualización de Datos, Story telling y PCA para datos energéticos")
+    image = Image.open("Chat_pdf.png")
+    st.image(image, width=190)
+    url = "https://bvnphvh7ubadjcmaamazjz.streamlit.app/#pregunta"
+    st.write(f"[Enlace]({url})")
+
