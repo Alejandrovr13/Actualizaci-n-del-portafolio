@@ -19,7 +19,6 @@ with col1:
  st.subheader("Vectores y Matrices")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
  url = "https://clase12-08-fixhnxkn7waimszlkdn93c.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
