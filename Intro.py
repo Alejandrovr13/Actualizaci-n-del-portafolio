@@ -79,7 +79,7 @@ with col3:
     st.subheader("Sistema de IoT")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    url = "https://bvnphvh7ubadjcmaamazjz.streamlit.app/#pregunta"
+    url = "https://docs.google.com/document/d/1IzCteFEheWjxtPAz6zle8LW-37f7CZ60GGcEhs4O9Bk/edit?usp=sharing"
     st.write(f"[Enlace]({url})")
 
 # ---------------- COLUMNA 4 ----------------
