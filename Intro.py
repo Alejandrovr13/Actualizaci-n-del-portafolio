@@ -73,7 +73,7 @@ with col3:
     st.subheader("Predicción y modelado de la calidad de aire")
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
-    url = "https://docs.google.com/document/d/1_6E3emznLswPBlEdA38srDH1FqpNYLxLup868wj-r2U/edit?usp=sharing"
+    url = "https://clase9-09-ubf6z3t7x5bxkdlyuvmbxu.streamlit.app/"
     st.write(f"[Enlace]({url})")
 
     st.subheader("Sistema de IoT")
